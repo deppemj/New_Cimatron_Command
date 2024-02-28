@@ -13,27 +13,29 @@ namespace New_Cimatron_Command
     public class new_cimatron_command : cimbase.ICimCommand, cimbase.ICreateCommand
 
     {
-        // This property allows you to enable the command in Cimatron
-
+        //This is the code that runs when the button is pressed in Cimatron
         public void Execute()
         {
-
+            //Getting the application provider
             interop.CimServicesAPI.CimApplicationProvider AppProvider = new interop.CimServicesAPI.CimApplicationProvider();
+            
+            //Getting the application
             interop.CimatronE.IApplication cimApp = AppProvider.GetApplication();
 
+            //Getting the pool commands object so that i can run many easy commands just by getting their name
             cimbase.IPoolCommands pool = (cimbase.IPoolCommands)cimApp.GetPoolCommands();
 
+            //Getting a command to start a section
             cimbase.ICimCommand section = pool.GetCommand("Tools2", "Dynamic Section");
+
+            //Executing the dynamic section pool command, this runs the command
             section.Execute();
              
-
+            //This gets the active doc if you want to save it or do some other command with the document
             cimmod.ICimDocument cimdoc = (cimmod.ICimDocument)cimApp.GetActiveDoc();
-
             
-
+            //This sends a message box to the user to show that other commands are allowed since this is a .net program
             MessageBox.Show("New custom title created today!", "Custom Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
 
         }
         //This property allows you to set the Category Name of your own command.
@@ -45,6 +47,7 @@ namespace New_Cimatron_Command
 
         }
 
+        // This property allows you to enable the command in Cimatron
         public int Enable()
         {
             return 1; // return true
