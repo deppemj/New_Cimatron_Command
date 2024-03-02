@@ -1,0 +1,1221 @@
+This file is quick reference for looking up pool commands. These can be put into the GetCommand method to execute a command. A sample command showing dynamic section is shown in Command_Code.cs 
+
+&Diagnostics,Entity Information
+&Diagnostics,Statistics
+File,From PDM
+File,By pick
+File,Publish to PDF
+File,Export and Email
+File,Points to CSV
+File,Create new Document
+File,To current Document
+DiCommands,Import
+DiCommands,ImportDragAndDrop
+DiCommands,ImportToCurrent
+DiCommands,CreatePdfFileList
+DiCommands,DiSaveAs
+DiCommands,MdImport
+DiCommands,ExtParts
+Curves,Line
+Curves,Box
+Curves,Circle
+Curves,Ellipse
+Curves,Arc
+Curves,Spline
+Curves,Point
+Curves,Symmetry Mode
+Curves2,Offset
+Curves2,Corner
+Curves2,Trim and Split
+Curves3,Duplicate
+Curves3,Mirror
+Curves4,Add Constraints
+Curves4,Show Constraints
+Curves4,Delete Constraints
+Curves4,Show Open Points
+Curves4,Close Points
+Curves5,Convert Edge
+Curves6,Save Sketch
+Curves6,Load Sketch
+Symbols1,DimensCreate
+Symbols1,Geom Tolerance
+Symbols1,Geom Datum
+Symbols1,Datum_Target
+Symbols2,Surface Roughness
+Symbols2,Surface Finish
+Symbols2,Multi Diameter
+Symbols1,OrdinaDimensionCreate
+Symbols2,Weld
+Symbols3,Center
+Symbols3,Marking
+Symbols3,Symmetry
+Symbols2,Section Line
+Symbols4,Hatch
+Symbols5,Arrow
+Symbols5,Id Number
+Symbols5,Text
+Symbols6,Bom
+Symbols6,Insert Picture
+Symbols6,TOH
+Symbols6,LOH
+Symbols7,Contour
+Automation,Save Drawing As Template
+Save2,Save Drafting linked
+Save2,Save Drafting compound
+Automation,Auto IdNumber
+Automation,Auto Center
+Automation,AutoOrdina
+Automation,AutoLOH
+Automation,Auto Coordinate Label
+Sheet1,Pick
+Sheet1,Enter Sketch
+Sheet1,Create Sheet
+Sheet1,Create  Sheet From Template
+Sheet1,Create drawing from template
+Sheet3,Sheet Standard
+Sheet3,Sheet View Attributes
+Sheet3,Edit Frame
+Sheet4,Change Curves Visibility
+Sheet4,Restore View Edges
+Sheet4,Simple
+Sheet4,Multi
+Sheet4,Break
+Sheet4,Local Section
+Sheet4,Clip
+Sheet4,ArrayOfFrames
+Sheet1,Copy Symbol
+Groups,Create Master
+Groups,Place Master
+Groups,Delete Master
+Tools,Order Symbols
+Tools,CharSize
+Tools,FontStyle
+Tools,Align View Hor
+Tools,Align View Ver
+Tools,Remove Align View
+Tools,Align Symbol Hor
+Tools,Align Symbol Ver
+Tools,Remove Align Symbol
+&Render Modes,RenderMode
+&Render Modes,Wireframe
+&Render Modes,HiddenLine
+&Render Modes,PartialHiddenLine
+&Render Modes,Shaded
+&Render Modes,Mixed
+&Display,Zoom &All
+&Display,&Zoom window
+&Display,Zoom Selection
+&Display,Zoom In
+&Display,Zoom Out
+&DynamicTools,&Zoom
+&DynamicTools,&Pan
+&DynamicTools,&Rotate
+&DynamicTools,ZPR
+&Display,Rotate To Plane
+&Display,Rotate By Angle
+&Display,ZoomFactor
+&Display,Isometric
+&Display,Top
+&Display,Front
+&Display,Right
+&Display,Bottom
+&Display,Back
+&Display,Left
+&Display,SnapToClosestView
+&Display,Core/Cavity Iso View
+&Display,TopRot
+&Display,FrontRot
+&Display,RightRot
+&Display,BottomRot
+&Display,BackRot
+&Display,LeftRot
+&Display,IsoRot
+&Display,Rot90ZPos
+&Display,Rot90ZNeg
+&Display,FlipView
+&Display,PanLeft
+&Display,PanRight
+&Display,PanUp
+&Display,PanDown
+&Display,Backward
+&Display,Forward
+HideShow,HideShowMode
+&Display,Last Picture
+&Display,Next Picture
+&Display,Save Image
+&Display,Style
+&Display,Refresh Picture
+&Display,LightSettings
+&Display,Light Default
+&Display,Light Set 1
+&Display,Light Set 2
+&Display,Display &Effects
+Line Attributes,Line Attribute Mode
+Line Attributes,Line Color
+Line Attributes,Pick Color
+Line Attributes,Line Style
+Line Attributes,Line Width
+&Display,Render && Transparency
+&Display,Local Wireframe
+&Display,Local Transp50
+&Display,Local Shade
+&Display,Local TransDlg
+&Display,Transparency
+&Display,Open Edges
+&Display,Datums
+&Display,Threads
+&Display,NGD Entities
+&Display,Edges
+&Display,Triad
+&Display,Override Faces Color
+&Display,Display Settings
+&Display,Show From Selected Sets
+&Display,Show Set Names
+&Edit,Filter Options...
+&Edit,Selector Mode
+Selector Mode,Add
+Selector Mode,Remove
+Selector Mode,Visible Faces Only
+&Edit,Face Selection Mode
+Face Selection Mode,Normal
+Face Selection Mode,Round
+Face Selection Mode,Pocket
+Face Selection Mode,Hole
+Face Selection Mode,Smooth
+Filter by Colors,FilterByColors
+Filter by Colors,Selected
+Filter by Colors,Not Selected
+Filter by Colors,Off
+Filter by Colors,Dialog
+&Edit,Selector extra
+Selector extra,Polygon
+Selector extra,Lasso
+Selector extra,Brush
+Selector extra,Smooth
+Selector extra,Single
+&Edit,Clear Selection
+&Edit,Select All
+&View,Crosshair Cursor
+Quick Filter,Filter Objects
+Quick Filter,Filter Faces
+Quick Filter,Filter Edges
+Quick Filter,Filter Sketches
+Quick Filter,Filter Points
+Quick Filter,Filter Datum
+Quick Filter,Filter Thread
+Quick Filter,Filter Component
+Quick Filter,Filter CuttingObj
+Quick Filter,Filter NGD
+Quick Filter,Filter Segments
+Quick Filter,Filter Views
+Quick Filter,Filter Groups
+Quick Filter,Filter Toolpath
+Quick Filter,Filter Stock
+Quick Filter,Filter Machine Comp
+Quick Filter,Reset
+Quick Filter,Keep Last
+Quick Filter,Filter UCS
+&Edit,QuickSet
+HideShow,Hide
+HideShow,Show
+HideShow,Hide Other Visible
+HideShow,Hide Other
+HideShow,Toggle
+&Customize,Spaceball
+&3Ddevice,Rotate By Point On/Off
+Points,End
+Points,Middle
+Points,Center
+Points,Close
+Points,Close2Face
+Points,Intersection
+Points,Pierce
+Points,TP Node
+Points,Ucs Org
+Points,Point
+Points,Screen
+Points,Key In
+Points,Delta
+Points,Stock Shape
+Points,Optional Selection
+File,ImportFromTemplate
+ActivateTreeTabs,ActivateFeatureTab
+ActivateTreeTabs,ActivateSetTab
+ActivateTreeTabs,ActivateMViewTab
+ActivateTreeTabs,ActivatePartingTab
+ActivateTreeTabs,ActivateAssemblyTab
+ActivateTreeTabs,ActivateTreeTab
+ActivateTreeTabs,ActivateECOTab
+View,Grid & Snap
+View,Settings
+Edit,Flip Arrow
+&Analyze,Turn &Zebra Shading On/Off
+&Analyze,Zebra Shading &Settings
+View,RotationCenter
+Settings,PrintByBatch
+View,DisplayMeshFacets
+View,HideShowInteractUCS
+View,DisableLinesAntialiasing
+Display,Highlight leaf
+Edit2,Hide datums
+Edit2,Show datums
+Edit2,Hide other
+Edit2,Suppress
+Edit2,Un-Suppress all
+Edit3,Move Linear
+Edit3,Move Locate
+Edit3,Move Radial
+Edit3,Move Mirror
+Edit3,Single
+Edit3,LinearArray
+Edit3,RadialArray
+Edit3,Copy Along Curve
+Edit3,Mirror
+Edit3,RemoveFace
+Edit5,Regenerate
+Edit5,ResetHistoryAss
+Edit5,Replay
+Environment2,Parallel Plane
+Environment2,Normal Plane
+Environment2,Main Plane
+Environment2,Mid Plane
+Environment2,Inclined Plane
+Environment2,Through Plane
+Environment2,Axis Parallel
+Environment2,Axis Normal
+Environment2,Axis Main
+Environment2,Axis Intersection
+Environment2,Axis Through
+Environment2,UCS By Geom
+Environment2,UCS By Directions
+Environment2,UCS By Center Of Geom
+Environment2,UCS on planar face
+Environment2,UCS Copy
+Environment3,UCS Layout
+Environment1,Activate UCS
+Environment2,UCS Mirror
+Curves1,Sketcher
+Curves1,Composite
+Curves1,Composite4Electrode
+Curves2,Single Point
+Curves2,Multi Points
+Curves2,Point Cloud
+Base Tool,Export Point Cloud
+Base Tool,Point Size 1X1
+Base Tool,Point Size 2X2
+Base Tool,Point Size 3X3
+Base Tool,Point Size 4X4
+Base Tool,Point Size 5X5
+Curves2,Line Regular
+Curves2,Circle
+Curves2,Spline
+Curves2,Helix
+Curves3,Intersection
+Curves3,Skeleton Curve
+Curves3,Silhouette
+Curves3,FromFace
+Curves4,Extend
+Curves4,Project
+Curves4,MidCurve
+Curves4,Offset-Edge
+Curves4,OffsetAlongFaces
+Curves4,CurveCornerRadius
+Curves4,2D Bounding
+Curves4,Object Silhouette
+Curves4,Text On Mesh
+Curves4,Text
+Curves5,SplitCurve
+Curves5,TrimCurve
+Curves5,MergeWires
+Curves5,Cookies
+Curves5,FairCurve
+Curves5,SplineToPrimitives
+Curves5,ModifyCurve
+Curves5,ModifyPolyline
+Faces,Sweep
+Faces,FacesRevolve
+Faces,Drive
+Faces,Blend
+FacesA,Bounded Face
+FacesA,RemoveOpenGaps
+FacesA,CompositeFace
+FacesA,Round Corner
+FacesA,Sharp Corner Face
+FacesA,Mesh
+FacesA,Skin
+FacesA,Fillet
+FacesA,FilletCurveFace
+FacesA,Fillet - 3 Faces
+FacesA,FilletCorner
+FacesA,Offset-Face
+FacesA,CapOff
+FacesA,PartWarpFaces
+FacesA,ExtendDie
+FacesA,ExtendDraft
+FacesA,Extend
+Faces,ExtendNewParting
+Faces,DraftAngle
+Faces1,Stitch
+Faces1,UnStitch
+FacesB,Local Heal
+FacesB,Split Face
+FacesB,Split Silhouette
+FacesB,FaceTrim
+Faces2,Boundary
+Faces2,In Sketcher
+Faces2,Islands
+Faces2,Fair
+Faces2,Slope
+Faces2,Deform Faces
+Faces2,Smoothness
+Faces2,Fuzzy Offset
+Solid1,NewMExtrude
+Solid1,NewMRevolve
+Solid1,NewMDrive
+Solid4,Pipe
+Solid4,Rib
+Solid1,NewMLoft
+Solid1,NewMSkin
+Solid4,Cutting Object
+Solid4,Stock
+Solid4,AutoConformalCooling
+Solid2,Round
+Solid2,Round3Faces
+Solid2,FaceFaceRound
+Solid2,Edge - Face Round
+Solid2,RemoveFaces
+Solid2,ExtendObject
+Solid2,Chamfer
+SolidA,Hole
+SolidA,Shell
+Environment1,Object Activate
+Environment1,Object DeActivate
+Solid3,Shrinkage
+Solid3,Bend
+Solid3,Rebend
+Solid3,Stretch
+Solid3,Twist
+Solid3,EWrap
+Solid3,Shadow Taper
+Solid3,Taper
+Solid3,ChangeDraftAngle
+Solid3,ResizeRounds
+Solid4,Cut
+Solid4,ObjDivide
+Solid4,ContDivide
+Solid4,Merge
+Mesh,BRepToMeshAnno
+Mesh,MergeMesh
+Mesh,CutDivMesh
+Mesh,FairMesh
+3dp Application,Stitch Mesh
+3dp Application,Reverse Direction
+3dp Application,Mesh Diagnostic
+3dp Application,Offset Mesh
+3dp Application,Close Mesh
+3dp Application,Split Mesh
+3dp Application,Close holes
+3dp Application,VolumeInsideShell
+3dp Application,Machining Offset
+Solid4,FairSolid
+Assembly1,From File
+Assembly1,Add AssemDupl
+Assembly1,From Catalog
+Assembly1,New
+Assembly1,New Part
+Assembly1,New Assembly
+AssemblyA,DeleteComponent
+AssemblyA,ReplaceComponent
+AssemblyA,SuppressComponent
+AssemblyA,UnSuppressComponent
+AssemblyQM,Remove Pocket
+AssemblyQM,Relocate Component
+AssemblyQM,Edit Dimensions
+Assembly1,Project Number
+AssemblyB,Ass Copy
+AssemblyB,Assembly Linear Array
+AssemblyB,Assembly Radial Array
+AssemblyB,RearrangeAssembly
+AssemblyB,InstanceToPart
+AssemblyB,AsCopyMirror
+Assembly2,Connect components
+Assembly2,Move/Rotate Component
+Assembly2,Bom
+Edit5,MainGoToEnd
+Assembly3,AssemblyCut
+Assembly3,AutomaticCut
+Assembly1,Add Folder
+Environment1,Component
+Environment1,OpenComponent
+Environment1,MainAssembly
+Environment1,MainAssembly4Electrode
+Environment1,ParentAssembly
+Environment1,ParentAssemblyForPart
+Environment2,Rename UCS
+Environment2,Ucs By NcTool
+Environment2,Ucs By NcMachine
+Environment2,RelationAnalyzer
+Environment2,DeleteFeature
+File,By Reference
+Tools2,Exclude from Import
+File,From document
+File,Parametric Import
+File,To document
+Tools2,CheckEntity
+Tools2,New Interference Check
+Tools2,Rerun Interference Check
+Tools2,Hide/Show Results
+Tools2,Hide Uninvolved
+Tools2,Thickness
+Tools2,ThinWalls
+Tools2,SlotSize
+Tools2,Deviation Map
+Tools2,Automatic Coloring
+Tools,Interference Check
+Tools2,Curvature Map
+Tools2,CMM Attach Labels
+Tools2,CMM Create Report
+Tools2,Arrange Normal
+Tools2,Threads && Ejectors
+Tools2,Delete  Duplicates
+Tools2,Cyclic analyzer
+Tools2,Dynamic Section
+Line Attributes,Copy Style
+Tools2,Edit Feat
+Tools2,Edit Sketch Contour
+Tools2,Edit Parameters
+Tools2,Edit Thread
+Tools2,Delete Thread
+Tools2,MdMain Part Selection
+Tools2,Child Parent
+Tools2,Alternative Parts
+Tools2,Catalog Filtering Relations
+Tools2,Formulas
+Tools2,Edit Relation
+Tools2,Delete Relation
+Tools,Recreate Assembly
+Tools2,Nesting Layout
+Tools2,Hole Verification
+Tools2,Hole Recognition
+Modeler Commands,FailureMng
+Modeler Commands,Modeler tree
+Modeler Tree,TreeEditFeatureCommand
+Modeler Tree,TreeRelationAnalyzerCommand
+Modeler Tree,TreeEditAddParamsCommand
+Modeler Tree,TreeRenameFeatureCommand
+Modeler Tree,TreeDeleteFeatureCommand
+Modeler Tree,TreeDeleteComponentSCommand
+Modeler Tree,TreeDeleteComponentCommand
+Modeler Tree,TreeSelectEntitiesCommand
+Modeler Tree,TreeClearSelectionCommand
+Modeler Tree,TreeClearSelectionFeatureCommand
+Modeler Tree,TreeHideCommand
+Modeler Tree,TreeShowCommand
+Modeler Tree,TreeSuppressComponentCommand
+Modeler Tree,UnSuppressComponentCommand
+Modeler Tree,DeleteAsOperationCommand
+Modeler Tree,DeleteFeatureCommand
+Modeler Tree,EditAsOperationCommand
+Modeler Tree,TreeAddCommand
+Modeler Tree,TreeEditSketchContourCommand
+Modeler Tree,TreeRenameFeatureParametersCommand
+Modeler Tree,MakeSingleUnit
+Modeler Tree,TreeUnAssociatedCommand
+Modeler Tree,TreeImportInfoCommand
+Modeler Tree,TreeSuppressFeatureCommand
+Modeler Tree,TreeShowHideSketchContourCommand
+Modeler Tree,TreeInsertCommand
+Modeler Tree,TreeJumpToCommand
+Modeler Tree,TreeResetHistoryCommand
+Modeler Tree,TreeActivateObjectCommand
+Modeler Tree,TreeMeasuringCommand
+Modeler Tree,TreeReCenterBlankCommand
+Modeler Tree,TreeReFitBlankCommand
+Modeler Tree,TreeReFitBlankHeightCommand
+Modeler Tree,TreePosUcsOnHolderCommand
+Modeler Tree,TreeEditBlanksCommand
+Modeler Tree,TreeEditCutterCommand
+Modeler Tree,TreeEditCoolingChannelsCommand
+Modeler Tree,TreeEditConformalCoolingDesignCommand
+Modeler Tree,TreeHideDatumsCommand
+Modeler Tree,TreeShowDatumsCommand
+Modeler Tree,TreeHideOtherObjectCommand
+Modeler Tree,TreeHideOtherComponentCommand
+Modeler Tree,TreeHideOtherComponentFolderCommand
+Modeler Tree,TreeHideOtherMultiSelectComponentCommand
+Modeler Tree,TreeSetDeepHideInstCommand
+Modeler Tree,ShowLocationOnDiskCommand
+Modeler Tree,TreeActivateComponentCommand
+Modeler Tree,TreeActivateAssemblyCommand
+Modeler Tree,TreeOpenComponentCommand
+Modeler Tree,TreeResetColorCommand
+Modeler Tree,ShowInPartingTreeCommand
+Modeler Tree,RenameComponentCommand
+Modeler Tree,TreeConnectedToCommand
+Modeler Tree,TreeEditConnectCommand
+Modeler Tree,TreeEditAddCommand
+Modeler Tree,TreeInstanceToPartCommand
+Modeler Tree,TreeLockCommand
+Modeler Tree,Edit Parameters
+Modeler Tree,CoolingObj
+Modeler Tree,ConformalCooling
+MViewTool,MView
+MViewTool,Explode View
+MViewTool,Explode View Preview
+Modeler Tree,Relocate Component
+Modeler Tree,DisconnectFromPlane
+Modeler Tree,ConnectToPlane
+Modeler Tree,TreeIgnoreUpdateCommand
+Modeler Tree,TreeUpdateDisassociateCommand
+Modeler Tree,TreeIgnoreUpdatePartCommand
+Modeler Tree,Assign Nesting
+Modeler Tree,TreeAddFolderCommand
+Modeler Tree,TreeAddFeatureFolderCommand
+Modeler Tree,TreeExplodeFeatureFolderCommand
+Modeler Tree,TreeExplodeFromFeatureFolderCommand
+Modeler Tree,TreeRenameFeatureFolderCommand
+Modeler Tree,TreeShowFolderCommand
+Modeler Tree,TreeHideFolderCommand
+Modeler Tree,TreeHideOtherFolderCommand
+Modeler Tree,TreeResetFolderColorCommand
+Modeler Tree,TreeDisassociateFolderCommand
+Modeler Tree,TreeIgnoreUpdateFolderCommand
+Modeler Tree,TreeChangeFolderIconCommand
+Modeler Tree,TreeSelectFolderComponentsCommand
+Modeler Tree,TreeAddToFolderCommand
+Modeler Tree,TreeExplodeFolderCommand
+Modeler Tree,TreeRemoveFolderCommand
+Modeler Tree,TreeRenameFolderCommand
+Modeler Tree,TreeRemoveFromFolderCommand
+Modeler Tree,TreeEditCutGroupCommand
+Modeler Tree,TreeDeleteCutGroupCommand
+Modeler Tree,TreeSuppressCutGroupCommand
+Modeler Tree,TreeClearSelectionCutGroupCommand
+Modeler Tree,TreeEditCutFolderCommand
+Tools2,Fix STL
+Tools2,Close STL
+Tools2,Check STL
+Modeler Tree,TreeNewFormationCommand
+Modeler Tree,TreeActivateFormationCommand
+Modeler Tree,TreeRenameFormationCommand
+Modeler Tree,TreeDeleteFormationCommand
+Base Tool,HideCommand
+Base Tool,ShowCommand
+Base Tool,WhereUsedCommand
+Base Tool,Measuring
+Base Tool,Clear Selection
+Base Tool,OnActivate
+Base Tool,NGDGuideCommand
+Base Tool,Export PMI Text
+Edit5,ReplayGoToEnd
+Curves2,Parting
+Curves2,Electrode
+ModelerHideShow,Hide Other
+Assembly Display,Dimmed
+AssemblyA,EditAddParamsCommand
+Modeler Tree,TreeEditAddBuffleCommand
+Modeler Tree,TreeEditCoolingCuttingObjCommand
+Modeler Tree,TreeEditTableOfEjectorsCommand
+Modeler Tree,TreeEditTableOfEjectorsProcCommand
+Die Tree,Move Assembly
+Die Tree,InstanceToPrt
+Die Tree,Update and Disassociate
+Edit3,RemoveFace4Parting
+Tools2,Setup
+Tools2,Leading Dimensions
+Tools2,Attach Name
+Tools2,Edit Rules
+Modeler Tree,EditParametricImportCommand
+Environment1,MotionSimulationV12Command
+Environment1,MotionSimulationV12SaveAsCommand
+Environment1,MotionSimulationV12LoadCommand
+Modeler Tree,File Properties
+Modeler Tree,Project Number
+Arrow,By 2 Positions
+Arrow,Normal To Reference
+Arrow,Tangent To Curve
+Arrow,By Reference
+Arrow,Normal To Screen
+Arrow,By Plane And Angle
+Arrow,Quick Split Direction
+MdSketcher,SkPlane
+SketcherMulti,ClosePt
+SketcherMulti,TrimExtend
+SketcherMulti,Offset
+SketcherMulti,Copy
+SketcherMulti,Slot
+Tools2,AddFromScreen
+Tools2,AddByDragging
+Tools2,EditAdvanceAdd
+Tools2,DeleteAdvanceAdd
+Tools2,EditAssemblyCopy
+Tools2,DeleteAssemblyCopy
+Tools2,Lock
+Tools2,UnLock
+NC-Enviroment1,Wizard
+NC-Enviroment1,Advanced
+NC-Display,Nc Guide Dialog
+NC-Display,NC Process Manager
+NC-Display,Execution Monitor
+NC-Utilities,Show Picture
+NC-Display,Information Bar
+NC-Display,Hide Tool
+NC-Display,Show/Hide Tool
+NC-Utilities,Hide Stock model
+NC-Planning,Create ToolPath Manualy
+NC-Planning,Create Procedure Manualy
+NC-Planning,Create From Template...
+NC-Planning,RestoreCreateProc
+NC-Planning,RestoreEditProc
+NC-Planning,Load Model...
+NC-Planning,Pencil Curves
+NC-Planning1,Mill && Drill Cutters...
+NC-Planning,NC Setup
+NC-Planning,Create ToolPath...
+NC-Planning,Create Part...
+NC-Planning,Create Stock...
+NC-Planning,Create New Utility Procedure
+NC-Planning,Create Procedure...
+Edit,Delete Procedure/TP
+Edit,API Delete Procedure/TP
+NC-Utilities,Execute Procedure/ToolPath...
+NC-Utilities,Import Measurement Results
+NC-Utilities,Display Measurement Results
+NC-Enviroment1,Global Filter
+NC-Utilities2,Navigator
+NC-Utilities2,Simulator and Verifier
+NC-Utilities2,External Simulator
+NC-Utilities1,Remaining Stock...
+NC-Utilities2,Motions Editor...
+NC-Utilities,Post Process...
+NC-Utilities,NC-Setup Report
+NC-Utilities,Job Manager
+NC-Planning,Apply Template
+NC-Planning,Open
+NC-Planning,Notify Macsys
+NC-Planning,Update UCS Name
+NC-Planning3,Save & Close...
+NC-Planning3,Save & Calculate...
+NC-Planning3,Save As...
+NC-Planning3,Cancel...
+NC-Planning3,Save & Calculate Immediately...
+NC-Planning3,TempClose
+NC-Utilities,Update Flags
+NC-Utilities,Close Procedure
+NC-Utilities,Capture Report Images
+NC-Utilities1,Save As Template...
+NC-Planning,Save Template
+NC-Planning,Toggle Gibbs Balloons
+NC-Utilities1,Load Defaults...
+NC-Utilities1,Load Look...
+NC-Utilities1,Save Defaults...
+NC-Utilities4,Change Comment
+NC-Utilities4,Change S. Gap
+NC-Utilities4,Change Cutter
+NC-Utilities4,Clear R Flag
+NC-Utilities4,Change Ucs
+NC-Utilities4,Set Horizontal Faces
+NC-Utilities5,Machine Definition
+NC-Utilities5,Clear Relations
+NC-Utilities5,Replace Post Parameters
+NC-Utilities5,Tp List
+NC-Utilities5,Tip Location
+NC-Utilities5,Geometry Location
+NC-Utilities4,Show by ID
+NC-Utilities4,Quick XML Report
+NC-Utilities4,Show Header Details
+NC-Utilities5,Delete all Remaining Stock models
+NC-Display,Erase Temporary points
+NC-Display,Activate Modeler Ucs
+NC-Display,Change HideShow
+NC-Display,Change Color
+NC-Display,Update ProcPalette
+Tools2,Cutter Library
+Tools2,Holder Library
+Tools2,Extension Library
+Dock,Sets
+Dock,MView
+NC-Display,Refresh Tp
+Edit1,Select All Procedure/TP
+Edit1,Collapse All TP's
+Edit1,Expand All TP's
+Edit,Cut Procedure/TP
+Edit,Copy Procedure/TP
+Edit,Paste Procedure/TP
+Edit,Copy Geometry/TP
+Edit,Paste Geometry/TP
+Edit,Paste Geometry Special/TP
+Edit,Delete Motions
+Edit,Delete Holder Interfered Motions
+Edit,Restore Original Motions
+Edit,Adjust Start
+Edit,Adjust End
+Edit,Divide Procedure by Cutter
+NC-Enviroment,CAM
+NC-Enviroment,CAD
+NC-Utilities5,Update Criteria
+NC-Planning2,NC Setup...
+Edit,Edit Procedure Parameters
+Edit,API Edit Procedure Parameters
+Edit,Edit Toolpath parameters
+Edit,Edit NC Setup parameters
+NC-Display,Active Ucs
+NC-Display,Show Motions
+NC-Display,Show Stock
+NC-Display,Hide Motions
+NC-Display,Hide All Motions
+NC-Display,Change Hide Motions Mode
+NC-Display,Hide Stock
+NC-Display,Toggle Motions Display
+NC-Display,Procedure Color
+NC-Procedure,Execute Preview
+NC-Display,Reset Layout
+Motion Editor,Delete
+Motion Editor,Connect
+Motion Editor,Project
+Motion Editor,Move
+Motion Editor,Gouge Check
+Motion Editor,Messages
+Motion Editor,Restore Original
+Motion Editor,Exit
+NC-Procedure,Open Preview
+NC-Procedure,Open Auto Drill
+NC-Procedure-AutoDrill,SwitchToAutoMode
+NC-Procedure-AutoDrill,SwitchToInteractiveMode
+NC-Procedure-AutoDrill,Groups Handling
+NC-Procedure-AutoDrill,Attach Sequence
+NC-Procedure-AutoDrill,Auto Fit Sequence
+NC-Procedure,Open Auto Drill Cutters
+NC-Procedure,Open Auto Drill Sequence Options
+NC-Utilities,Stock Calculate
+NC-Utilities,Stock Calculate Fallback
+NC-Utilities,OnDocConvert
+NC-Utilities,Terminate Execution
+NC-Display,Show Execution Log
+NC-Utilities,Ucs By NCTool
+NC-Utilities,Ucs By NCMachine
+NC-Display,Layout
+NC-Display,Simulation Control
+NC-Display,Simulation Display
+NC-Display,Simulation Report
+NC-Display,Simulation Motions
+NC-Display,Simulation Inspect
+NC-Display,Simulation Options
+NC-Display,Simulation Stop Conditions
+NC-Display,Machining Time
+NC-Display,Simulation Progress
+NC-Display,Reset Simulation Layout
+NC-Display,Exit Simulator
+NC-Display,Axis Control
+NC-Display,Simulation Machine
+NC-Display,ToggleGougeDisp
+NC-Display,CreateUCSInsideSim
+&Display,IsoMachine
+&Display,TopMachine
+&Display,FrontMachine
+&Display,RightMachine
+&Display,BottomMachine
+&Display,BackMachine
+&Display,LeftMachine
+&Display,IsoFlipMachine
+NC-Display,ToggleToolpath
+NC-Display,ToggleTargetPart
+NC-Display,ToggleStock
+NC-Display,ToggleInitStock
+NC-Display,ToggleTool
+NC-Display,ToggleHead
+NC-Display,ToggleTable
+NC-Display,ToggleEnclosure
+NC-Display,SetStatMachine
+NC-Display,SetStatPart
+NC-Display,SetStatTool
+NC-Display,SetViewBOI
+NC-Display,SetWholeModelBOI
+NC-Display,SimInfoTool
+UndoRedo,Undo
+UndoRedo,Redo
+Edit,Undo
+Edit,Redo
+File1,NewPart_mm
+File1,NewPart_inch
+File1,NewAssembly_mm
+File1,NewAssembly_inch
+File1,NewDrafting_mm
+File1,NewDrafting_inch
+File1,NewNC_mm
+File1,NewNC_inch
+File1,MM
+File1,Inch
+File1,OpenDocument
+File1,Close
+File1,Xplor
+File2,Save
+File2,SaveAs Include Dependent Documents
+File2,SaveAs Main Document Only
+File2,Save All
+File2,Save As Template
+File2,Manage Templates
+File4,Close All
+File2,Only selected documents
+File2,Receive
+File2,GetFromCatalog
+File3,Print
+File5,Properties
+File1,Delete
+Tools,SymbolList
+Tools,AddPictures
+Customize,SaveProfile
+Customize,InvokeCustomizationTool
+Tools,RunScript
+Tools,OpenCatMaster
+File6,RecentList
+Application,Exit
+MouseClick,LMB
+MouseClick,MMB
+MouseClick,RMB
+MouseClick,LMMB
+MouseClick,RMMB
+MouseClick,RLMB
+Window,New
+Window,Cascade
+Window,Tile horz
+Window,Tile vert
+Window,Arrange
+Window,More
+Window,List
+Help,Contents && Index F1
+Help,Tutorial
+Help,Whats New
+About,About CimatronE
+Edit1,Update
+Tools,Material Library
+Tools,Edit Material Library
+Tool Palette,Restore Defaults
+Feature Guide,Ok
+Feature Guide,Apply
+Feature Guide,Cancel
+Feature Guide,Close
+Feature Guide,AutomaticPreview
+Feature Guide,ManualPreview
+FloatingFG,Ok
+FloatingFG,Apply
+FloatingFG,Cancel
+FloatingFG,Close
+Analyse,InfoTool
+Analyse,Measuring tool
+&Display,Display Curves
+Tools,Preferences
+MOLD,MoldBase Group
+MOLD,AddMoldComp Group
+MOLD,CoolingDesign Group
+MOLD,RunnerDesign Group
+MOLD,EjectionDesign Group
+Parting Application,Mold Base Setup
+Mold Commands,Setup
+Mold Commands,NewLayout
+Mold Commands,Load Parting Sub Assembly
+Mold Commands,LayoutDesign
+Mold Commands,Update Work Part Bounding Data
+Mold Commands,MB Ass Copy
+Mold Commands,Add Set
+Mold Commands,Load Set
+Mold Commands,Edit Set
+Mold Commands,Delete Set
+Mold Commands,Add Mold Parts
+Mold Commands,Add Mold Screws
+Mold Commands,Add Lifter
+Mold Commands,Add Insert
+Mold Commands,Add Mold Injection Devices
+Mold Commands,Add Mold Plates
+Mold Commands,Add Mold Slide Units
+Mold Commands,Parallel Datum
+Mold Commands,Inclined Datum
+Mold Commands,Cooling Sketch
+Mold Commands,Cooling Line
+Mold Commands,Create Channel
+Mold Commands,Cooling Cut
+Mold Commands,Add Cooling Component
+Mold Commands,Add Baffles
+Mold Commands,Remove Cooling Circuit
+Mold Commands,Mark Cooling Circuit
+Mold Commands,Table Of Baffles
+Mold Commands,Edit Runner Part
+Mold Commands,Runner Parallel Datum
+Mold Commands,Runner Skecth
+Mold Commands,Runner Line
+Mold Commands,Create Runner Bodies
+Mold Commands,Merge Runner Bodies
+Mold Commands,Cut By Runner
+Mold Commands,Create Edit Runner Part
+Mold Commands,Add Ejection Devices
+Mold Commands,Add Mold Ejection Devices
+Mold Commands,Ejectors Trim
+Mold Commands,Ejector Pocketing
+Mold Commands,Ejectors Table
+Mold Commands,Ejector Lock
+Mold Commands,Cooling Table
+Mold Commands,Add Slider Mechanism
+Mold Commands0,Pocket
+Mold Commands,Edit Slider Mechanism
+Mold Commands0,Save Configuration
+Mold Commands0,Info
+Mold Commands,Analyze Conformal Cooling Circuit
+Mold Commands,Conformal Cooling Design
+Mold Commands,Insert Design
+Mold Commands,Edit Insert
+Mold Commands,Quote Guide
+Mold Commands,Quote Assign Comp
+Mold Commands,Quote Plate
+Mold Commands,Quote Plate Drilling
+Mold Commands,Quote Plate Wire EDM
+Mold Commands,Quote Plate Milling
+Mold Commands,Quote Plate Surface Milling
+Mold Commands,Quote Electrode
+Mold Commands,Quote Save Bom
+Mold Commands,Generate Report
+Mold Commands,Quote Guide Close
+Mold Commands,Quote Data Management
+Mold Commands,Gate Design
+Mold Commands,Cooling Distance Map
+File2,Save as Catalog Part
+Parting Application,MdCatalog Free Doc
+Parting Application,MdCatalog Edit Params
+Parting Application,MdCatalog Edit Cutting
+Parting Application,MdCatalog Show Cutting
+Parting Application,MdCatalog Hide Cutting
+Parting Application,MdCatalog Cutting Rules
+Parting Application,MdCatalog Free Assm Doc
+Parting Application,MdCatalog Associate Doc
+Parting Application,MdCatalog Update Geom
+File2,Save as Mechanism Assembly
+Modeler Commands,Apply Template Group
+Dock,ElectrodeView
+Parting Application,Electrode SetUp
+Modeler Commands,Electrode Application
+Modeler Commands,Add Electrode
+Modeler Commands,Add Electrode From Screen
+Modeler Commands,Add LocationV7
+Modeler Commands,Add Location
+Modeler Commands,3D Trajectory
+Modeler Commands,Electrode Simulation
+Modeler Commands,Blank
+Modeler Commands,Burn Body
+Modeler Commands,Solid Extension
+Modeler Commands,Auto Contour
+Modeler Commands,Extensions
+Modeler Commands,Holder
+Modeler Commands,UCS
+Modeler Commands,NC UCS
+Modeler Commands,Electrode Template
+Modeler Commands,Electrode Template By Ref
+Modeler Commands,Apply El Template
+ElectDraw Commands,ElDraw
+ElectDraw Commands,AsmDraw
+ElectDraw Commands,AllDraw
+Modeler Commands,EDM Setup
+ElectDraw Commands,Report Image
+ElectDraw Commands,Show Image
+ElectDraw Commands,Delete Image
+Modeler Commands,Activate Electrode
+Modeler Commands,ReCenter Blank
+Modeler Commands,ReFit Blank
+Modeler Commands,ReFit Blank Height
+Modeler Commands,Pos UCS on Holder
+Electrode Tree,Holder Update and Disassociate
+DieDesign,Faces Group
+DieDesign,Curves Group
+DieDesign,QuickModif Group
+DieDesign,ToolFaces Group
+DieDesign,Config CS Group
+DieDesign,Switch To Transfer Tool
+DieDesign,Switch To Transfer Process
+DieDesign Commands1,DieWarpFaces
+DieDesign Commands2,Quote Data Management
+DieDesign Commands3,Insert DieCuttingObject
+DieDesign Commands3,Sketcher
+DieDesign Commands3,SketcherReg
+DieDesign Commands3,Extend Curve
+DieDesign Commands3,Corner Curve
+DieDesign Commands3,Split Curve
+DieDesign Commands3,Merge Wires
+DieDesign Commands3,Offset Curve
+DieDesign Commands3,Line
+DieDesign Commands3,Circle
+DieDesign Commands3,CopyWire
+DieDesign Commands3,MirrorWire
+DieDesign Commands3,Text
+DieDesign Commands3,Copy Single
+DieDesign Commands3,Bounded Face
+DieDesign Commands3,Close Open Gaps
+DieDesign Commands3,Close Holes
+DieDesign Commands3,Remove Geom
+DieDesign Commands3,Offset Face
+DieDesign Commands3,Extend Planar Face
+DieDesign Commands3,Cap Internal Island
+DieDesign Commands3,GoToEnd Update and DisAssoc
+DieDesign Commands3,Highlight Nxt Sprsd Feat
+DieDesign Commands3,Delete All Features
+Debug,Assembly Information
+Debug,Save Tree
+Debug,Pick sketch point
+Debug,Expand All
+Debug,Fix Catalog Column Types
+Tools2,NGDGuide
+NGDTools,NGDDimension
+NGDTools,NGDGeomTol
+NGDTools,NGDGeomDatum
+NGDTools,NGDDatumTarget
+NGDTools,NGDRoughness
+NGDTools,NGDSurfaceFinish
+NGDTools,NGDText
+NGDTools,CurveText
+NGDTools,ReplaceText
+NGDTools,ConvertToCurveText
+NGDTools,NGDHoleAttributes
+NGDTools,NGDCoordLabel
+NGDTools,NGDActiveMView
+NGDTools,NGDDelete
+NGDTools,NGDUpdate
+NGDTools,NGDSettings
+NGDTools,NGDClose
+Edit3,NGDConvert
+Edit3,NGDExclude
+NGDTools,NGDEdit
+Parting,Mold Layout Group
+Parting,Parting Group
+Parting,Analysis Group
+Parting,PartingSurf Group
+Parting,Tools Group
+Parting,Lifter Tools Group
+Parting,Insert Tools Group
+Parting0,Add Layout
+Parting0,Load Work Parts
+Parting0,Add Active Parts
+Parting,Quick Split
+Parting,New Direction
+Parting,Parting New Dir
+Parting,Parting Attach Atts
+Parting,Draft Angle Analysis
+Parting,External
+Parting,Open Direction Analysis
+Parting,CapOffInternal
+Parting,ParingtWarpFaces
+Parting,Mark as Work Part
+Parting,Parting Surface Part
+Parting,New Open Edges Analysis
+Parting,Body Integrity Analysis
+Parting,Show Hide Open Edges
+Parting,Open Edges Delete Figures
+Parting,Parting Analytic Tools
+Parting,Show Hide Parting Analytic
+Parting,Delete Parting Analytic
+Parting,Shrinkage
+Parting2,AdvancedCompare2
+Parting,EcoReplaceMasterPart
+Parting,OpenEcoTree
+Parting,AddEcoPart
+Parting,AddEcoPartFromEcoTree
+Parting,EcoReplaceFaces
+Parting,EcoOpenDoc
+Parting2,Compare2
+Parting,MoldCS
+Parting,Export Parting Faces
+Parting,Export Parting Faces2
+Parting,Die_Export Parting Faces
+Parting,Add Lifter
+Parting,Cut By Parting
+Parting,Lifter Pocket
+Parting,Lifter PartingCuttingObject
+Parting,New Add Insert
+Parting,Fastening
+Parting,Cut Insert
+Parting,Insert Pocket
+Parting,Add Insert
+Parting,Insert PartingAddNewComponent
+Parting,Insert PartingSketch
+Parting,Insert PartingNewExtrude
+Parting,Insert PartingCuttingObject
+Parting,Insert PartingAssemblyCut
+Parting,DisAssociate For Export
+Parting,Associate For Export
+Parting,Temp Associate For Export
+Parting,Associate All For Export
+Parting Application,Start
+Parting,Highlight Split Direction
+Parting,Edit Split Direction
+Parting,Show in Part Tree
+Parting,AssociateExportPsrfCommand
+Parting,EditExportPsrfCommand
+Parting,SwitchToImportCommand
+Parting,FeatureGroupIgnoreUpdateCommand
+FacesA,SkinTangentExtension
+SkSketcher,Cancel
+SkSketcher,Select
+SkSketcher,Line
+SkSketcher,Box
+SkSketcher,Circle
+SkSketcher,Ellipse
+SkSketcher,Arc
+SkSketcher,Spline
+SkSketcher,Point
+SkSketcher,Symetry
+SkSketcher,Slot
+SkSketcher,Offset
+SkSketcher,Corner
+SkSketcher,Erase
+SkSketcher,SkTrimExtend
+SkSketcher,SkDuplicate
+SkSketcher,SkMirror
+SkSketcher,SkConstraint
+SkSketcher,Dim
+SkSketcher,ConLines
+SkSketcher,UseGeom
+SkSketcher,Ref
+SkSketcher,SkAllowAutoRef
+SkSketcher,SkShowAutoRef
+SkSketcher,SkCenterOfGeom
+SkSketcher,Polygon
+SkConstraint,HorVert
+SkConstraint,Par
+SkConstraint,Normal
+SkConstraint,Tangent
+SkConstraint,Centr
+SkConstraint,Same
+SkConstraint,Coinc
+SkConstraint,SameX
+SkConstraint,SameY
+SkConstraint,SameXY
+SkConstraint,Fixed
+SkSketcher,SkDelete
+SkSketcher,SkToolbarGeneral
+SkSketcher,Exit
+SkSketcher,UpdateDim
+SkSketcher,SkPrev
+SkSketcher,Place
+SkSketcher,Save
+SkSketcher,Picture
+SkSketcher,SkEditConstr
+SkSketcher,SkOpenPoints
+SkSketcher,SkClosePoints
+SkSketcher,SkDelRelations
+SkSketcher,SkShowConstrPerm
+SkSketcher,SkShowConstrImmed
+SkSketcher,SkShowConstraints
+SkSketcher,SkEditPlane
+SkSketcher,SkEditOrientation
+SkSketcher,ShapeTang
+SkSketcher,ShapeNorm
+SkSketcher,ShapeParal
+SkSketcher,ShapePoint
+SkSketcher,ShapeCenter
+SkSketcher,ShapeDiam
+testcategory,MATT CUSTOM COMMAND
+Customize,Accelerator
+Customize,ToolBar
+Dock,TreeView
+Dock,Output
+Dock,Guides
+Dock,ProgressiveMoldView
+Tree,SecondTree
+Tree,FirstTree
+View,Tree Search
